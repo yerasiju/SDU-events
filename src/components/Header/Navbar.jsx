@@ -9,8 +9,8 @@ function Navbar() {
         <img src="../../../public/login-logo.png" alt="" />
       </div>
       <div>
-        <Link to="/">Home</Link>
-        <Link to="/events">Events</Link>
+        <Link to="/SDU-events/">Home</Link>
+        <Link to="/SDU-events/events">Events</Link>
       </div>
     </nav>
   );

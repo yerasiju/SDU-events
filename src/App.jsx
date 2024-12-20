@@ -13,9 +13,9 @@ function App() {
         <Router>
           <Navbar />
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/events" element={<Events />} />
-            <Route path="/register" element={<Register />} />
+            <Route path="/SDU-events/" element={<Home />} />
+            <Route path="/SDU-events/events" element={<Events />} />
+            <Route path="/SDU-events/register" element={<Register />} />
           </Routes>
         </Router>
       </div>
