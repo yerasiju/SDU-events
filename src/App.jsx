@@ -15,7 +15,7 @@ function App() {
           <Routes>
             <Route path="/SDU-events/" element={<Home />} />
             <Route path="/SDU-events/events" element={<Events />} />
-            <Route path="/SDU-events/register" element={<Register />} />
+            <Route path="/register" element={<Register />} />
           </Routes>
         </Router>
       </div>
