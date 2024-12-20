@@ -1,0 +1,91 @@
+.register-container {
+  font-family: "Arial", sans-serif;
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.register-title {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.register-error {
+  color: red;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.register-success {
+  color: green;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.register-summary {
+  background: #e9ffe9;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #c1eac1;
+  border-radius: 8px;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-input,
+.register-select,
+.register-textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.register-textarea {
+  min-height: 100px;
+  resize: vertical;
+}
+
+.register-button {
+  background-color: #0b0190;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #100044;
+}
+
+@media (max-width: 768px) {
+  .register-container {
+    padding: 15px;
+  }
+
+  .register-title {
+    font-size: 1.8rem;
+  }
+
+  .register-input,
+  .register-select,
+  .register-textarea {
+    font-size: 0.9rem;
+  }
+
+  .register-button {
+    font-size: 0.9rem;
+  }
+}
