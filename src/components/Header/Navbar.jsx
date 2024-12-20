@@ -10,7 +10,7 @@ function Navbar() {
       </div>
       <div>
         <Link to="/SDU-events/">Home</Link>
-        <Link to="/SDU-events/events">Events</Link>
+        <Link to="/events">Events</Link>
       </div>
     </nav>
   );

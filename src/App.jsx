@@ -14,7 +14,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route path="/SDU-events/" element={<Home />} />
-            <Route path="/SDU-events/events" element={<Events />} />
+            <Route path="/events" element={<Events />} />
             <Route path="/register" element={<Register />} />
           </Routes>
         </Router>
