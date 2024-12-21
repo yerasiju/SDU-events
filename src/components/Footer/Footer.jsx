@@ -6,15 +6,15 @@ const Footer = () => {
     <footer className={styles.footer}>
       <div className={styles.footerContent}>
         <div className={styles.socialLinks}>
-          <a href="https://facebook.com" target="_blank">
-            <i class="fa-brands fa-facebook"></i>
+          <a
+            href="https://www.instagram.com/we_sdu?igsh=bWY1eHdxMnVua2Yz"
+            target="_blank"
+          >
+            <i className="fa-brands fa-instagram"></i>
           </a>
 
-          <a href="https://twitter.com" target="_blank">
-            <i className="fa-brands fa-twitter"></i>
-          </a>
-          <a href="https://instagram.com" target="_blank">
-            <i className="fa-brands fa-instagram"></i>
+          <a href="https://t.me/we_sdu" target="_blank">
+            <i className="fa-brands fa-telegram"></i>
           </a>
         </div>
         <div className={styles.contactInfo}>

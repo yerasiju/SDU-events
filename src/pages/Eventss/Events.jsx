@@ -21,8 +21,8 @@ const Events = () => {
       const formattedEvents = data.values.slice(1).map((row) => ({
         title: row[0] || "Exciting Event Coming Soon!",
         description: row[1] || "Join us for this amazing experience!",
-        date: row[2] || "TBA",
-        time: row[3] || "TBA",
+        date: row[2] || "01.01.2025",
+        time: row[3] || "21:00",
         location: row[4] || "Location to be announced",
         image: row[5] || "https://via.placeholder.com/150",
       }));
@@ -68,10 +68,11 @@ const Events = () => {
                 <p className="event-description">{event.description}</p>
               )}
               <p className="event-info">
-                {event.date && <span>{event.date}</span>}
-                {event.time && <span> | {event.time}</span>}
-                {event.location && <span> | {event.location}</span>}
+                <span>Date: {event.date}</span>
+                <span>Time: {event.time}</span>
+                <span>Location: {event.location}</span>
               </p>
+
               <button
                 className="event-button"
                 onClick={() => handleRegister(event.title)}

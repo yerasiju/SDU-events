@@ -13,7 +13,7 @@ function Home() {
             creativity, and create unforgettable memories. Stay updated with all
             our upcoming events and register today!
           </p>
-          <Link to="/events" className="cta-button">
+          <Link to="/SDU-events/events" className="cta-button">
             Explore Events
           </Link>
         </div>
@@ -28,10 +28,15 @@ function Home() {
             className="about-us-image"
           />
           <p>
-            Our mission is to provide a platform where people can connect,
-            learn, and grow through a variety of engaging events. From workshops
-            and seminars to fun social gatherings, we offer something for
-            everyone.
+            Welcome to the official website of <strong>WE</strong>, the heart of
+            events at Suleyman Demirel University. Our mission is to bring
+            students, faculty, and staff together through engaging and impactful
+            events that inspire, educate, and entertain. From academic seminars
+            and cultural celebrations to workshops and social gatherings, we aim
+            to create a vibrant campus life that fosters learning,
+            collaboration, and growth. At <strong>WE-SDU</strong>, we believe in
+            the power of community and the importance of making every moment
+            count. Join us in shaping a brighter, more connected SDU experience!
           </p>
         </div>
       </section>
