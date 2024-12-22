@@ -6,80 +6,134 @@ function Home() {
   return (
     <div className="home-container">
       <header className="hero-section">
+        <div className="video-background">
+          <video
+            src="https://videos.pexels.com/video-files/9686491/9686491-hd_1920_1080_30fps.mp4"
+            autoPlay
+            muted
+            loop
+            playsInline
+          ></video>
+        </div>
+        <div className="video-overlay"></div>
         <div className="hero-content">
-          <h1>Take a part in our events</h1>
-          <p>
-            Join us for amazing events that bring people together, inspire
-            creativity, and create unforgettable memories. Stay updated with all
-            our upcoming events and register today!
-          </p>
+          <h2>Hurry Up! Don't waste time!</h2>
+          <h1>Take part in our events</h1>
           <Link to="/SDU-events/events" className="cta-button">
             Explore Events
           </Link>
         </div>
       </header>
 
-      <section className="about-us">
-        <h2>About Us</h2>
-        <div className="about-us-content">
-          <img
-            src="https://i.pinimg.com/736x/64/bf/6a/64bf6a0754de7e611d898dbfa378da34.jpg"
-            alt="About Us"
-            className="about-us-image"
-          />
+      <section class="about-us-section">
+        <div class="about-header">
+          <h2>About Us</h2>
           <p>
-            Welcome to the official website of <strong>WE</strong>, the heart of
-            events at Suleyman Demirel University. Our mission is to bring
-            students, faculty, and staff together through engaging and impactful
-            events that inspire, educate, and entertain. From academic seminars
-            and cultural celebrations to workshops and social gatherings, we aim
-            to create a vibrant campus life that fosters learning,
-            collaboration, and growth. At <strong>WE-SDU</strong>, we believe in
-            the power of community and the importance of making every moment
-            count. Join us in shaping a brighter, more connected SDU experience!
+            WE is the heart of student life in Suleyman Demirel University
+            (SDU), Social Life of E&NS Faculty. Since 2021, we’ve worked to make
+            student life more vibrant and engaging.
           </p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-row">
+            <div class="text-content">
+              <h3>Our Mission: Empowering Students</h3>
+              <p>
+                At WE, our mission is to enhance the student experience by
+                organizing impactful events that inspire, educate, and connect
+                the SDU community. Through innovation and teamwork, we aim to
+                make every moment unforgettable.
+              </p>
+            </div>
+            <img
+              src="https://sdu.edu.kz/wp-content/uploads/2023/04/o-nas.webp"
+              alt="Our Team"
+              class="about-image"
+            />
+          </div>
+
+          <div class="about-row reverse">
+            <img
+              src="https://scontent.fcit2-1.fna.fbcdn.net/v/t39.30808-6/462606791_2793092950867777_2270908401936671287_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=xbXHEUOk_80Q7kNvgEPox9z&_nc_zt=23&_nc_ht=scontent.fcit2-1.fna&_nc_gid=A403eXA0JSbLrNMFrduajTI&oh=00_AYBRUP_bhCwtl8Hcglw_FGatpLSxgjTfx1tN2EovWaRc0w&oe=676DDB66"
+              alt="Our Workspace"
+              class="about-image"
+            />
+            <div class="text-content">
+              <h3>Our Story: Est. 2021</h3>
+              <p>
+                WE was founded in 2021 with the vision of creating a vibrant,
+                inclusive student life for everyone at SDU. Since then, we’ve
+                organized over 100 events, from cultural celebrations to
+                academic workshops, bringing students closer together and making
+                memories that last a lifetime.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-stats">
+          <div class="stat">
+            <h3>100+</h3>
+            <p>Events Organized</p>
+          </div>
+          <div class="stat">
+            <h3>2021</h3>
+            <p>Established</p>
+          </div>
+          <div class="stat">
+            <h3>One Goal</h3>
+            <p>To Make Student Life Richer</p>
+          </div>
         </div>
       </section>
 
-      <section className="featured-events">
-        <h2>Featured Events</h2>
-        <div className="events-list">
-          <div className="event-item">
-            <img
-              src="https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Event 1"
-              className="event-image"
-            />
-            <h3>Creative Coding Workshop</h3>
-            <p>
-              Join us for an interactive coding workshop where you'll learn how
-              to bring your ideas to life through programming!
-            </p>
-          </div>
-          <div className="event-item">
-            <img
-              src="https://images.pexels.com/photos/716276/pexels-photo-716276.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Event 2"
-              className="event-image"
-            />
-            <h3>Networking Mixer</h3>
-            <p>
-              Meet like-minded professionals and expand your network in a
-              relaxed and friendly environment.
-            </p>
-          </div>
-          <div className="event-item">
-            <img
-              src="https://images.pexels.com/photos/159775/library-la-trobe-study-students-159775.jpeg?auto=compress&cs=tinysrgb&w=600"
-              alt="Event 3"
-              className="event-image"
-            />
-            <h3>Annual Tech Conference</h3>
-            <p>
-              Join industry experts for an in-depth look at the latest trends
-              and innovations in technology.
-            </p>
-          </div>
+      <section className="featured-experiences">
+        <h2>Unforgettable Experiences Await</h2>
+        <div className="experience-cards">
+          {[
+            {
+              title: "Exclusive Events",
+              description:
+                "Join our special themed events and make lasting memories!",
+              imgSrc:
+                "https://images.pexels.com/photos/3184183/pexels-photo-3184183.jpeg?auto=compress&cs=tinysrgb&w=600",
+              link: "/SDU-events/exclusive",
+            },
+            {
+              title: "Cultural Showcases",
+              description:
+                "Experience the diverse cultures through exciting performances.",
+              imgSrc:
+                "https://images.pexels.com/photos/1407491/pexels-photo-1407491.jpeg?auto=compress&cs=tinysrgb&w=600",
+              link: "/SDU-events/cultural",
+            },
+            {
+              title: "Student Networking",
+              description:
+                "Connect with students from all backgrounds and fields.",
+              imgSrc:
+                "https://images.pexels.com/photos/2072168/pexels-photo-2072168.jpeg?auto=compress&cs=tinysrgb&w=600",
+              link: "/SDU-events/networking",
+            },
+          ].map((experience, index) => (
+            <div className="experience-card" key={index}>
+              <div className="experience-image">
+                <img
+                  src={experience.imgSrc}
+                  alt={experience.title}
+                  className="experience-img"
+                />
+              </div>
+              <div className="experience-text">
+                <h3>{experience.title}</h3>
+                <p>{experience.description}</p>
+                <Link to="/SDU-events/events" className="cta-button">
+                  Learn More
+                </Link>
+              </div>
+            </div>
+          ))}
         </div>
       </section>
     </div>
