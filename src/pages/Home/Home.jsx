@@ -24,11 +24,7 @@ const HomePage = () => {
 
       <div className="container" id="rulesofgame">
         <div className="sticky-left">
-          <h1>
-            How to <br />
-            register?
-          </h1>
-
+          <h1 className="title1">How to register?</h1>
           <div className="item">
             <span className="number">
               <p>2</p>
@@ -70,7 +66,7 @@ const HomePage = () => {
       </div>
 
       <div className="stats">
-        <h2>Our Impact</h2>
+        <h1>Our Impact</h1>
         <div className="stats-container">
           <div className="stat-item">
             <h3>100+</h3>

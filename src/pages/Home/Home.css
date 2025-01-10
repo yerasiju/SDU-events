@@ -44,7 +44,7 @@
 }
 
 .home p {
-  font-size: 3rem;
+  font-size: 2.4rem;
   margin-top: 1px;
   animation: fadeIn 2s 3s forwards;
 }
@@ -71,47 +71,6 @@
 
 .home button:hover {
   background: linear-gradient(45deg, #4a005d, #f200ff, #ccc);
-}
-
-.features {
-  margin-top: 40px;
-  text-align: center;
-}
-
-.features h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.feature-items {
-  display: flex;
-  justify-content: space-around;
-  gap: 15px;
-}
-
-.feature-item {
-  background: rgba(255, 255, 255, 0.1);
-  padding: 15px;
-  border-radius: 10px;
-  flex: 1;
-}
-
-.feature-item h3 {
-  font-size: 1.5rem;
-}
-
-.feature-item p {
-  font-size: 1rem;
-  color: #ccc;
-}
-
-@keyframes gradientMove {
-  0% {
-    background-position: 0% 50%;
-  }
-  100% {
-    background-position: 100% 50%;
-  }
 }
 
 .stats {
@@ -145,39 +104,11 @@
   font-size: 1.2rem;
   color: #ccc;
 }
-.floating-button {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background: linear-gradient(45deg, #730090, #f87aff);
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.floating-button a {
-  color: white;
-  font-size: 1.5rem;
-  text-decoration: none;
-}
-
-.floating-button:hover {
-  background: white;
-  color: #730090;
-}
 
 .container {
   margin-top: 167px;
   display: flex;
   justify-content: space-between;
-}
-
-.container h1 {
-  text-align: center;
-  color: #fff;
 }
 
 .sticky-left {
@@ -186,8 +117,13 @@
   top: 0;
 }
 
+.title1 {
+  margin-left: 600px;
+  width: 500px;
+}
+
 .sticky-left .item {
-  padding-top: 170px;
+  padding-top: 250px;
   margin-left: 100px;
 }
 
