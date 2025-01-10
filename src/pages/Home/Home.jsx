@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Home.css";
 
 const HomePage = () => {
@@ -17,26 +18,8 @@ const HomePage = () => {
         <img src="https://i.ibb.co/G9Pjm8x/WE-logo.png" alt="WE-logo" />
         <p>Make your student life more saturated</p>
         <button>
-          <a href="/SDU-events/events">Join us</a>
+          <Link to="/SDU-events/events">Join us!</Link>
         </button>
-      </div>
-
-      <div className="stats">
-        <h2>Our Impact</h2>
-        <div className="stats-container">
-          <div className="stat-item">
-            <h3>100+</h3>
-            <p>Events Hosted</p>
-          </div>
-          <div className="stat-item">
-            <h3>5,000+</h3>
-            <p>Happy Students</p>
-          </div>
-          <div className="stat-item">
-            <h3>50+</h3>
-            <p>Networking Opportunities</p>
-          </div>
-        </div>
       </div>
 
       <div className="container" id="rulesofgame">
@@ -82,6 +65,24 @@ const HomePage = () => {
                 your participation.
               </p>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="stats">
+        <h2>Our Impact</h2>
+        <div className="stats-container">
+          <div className="stat-item">
+            <h3>100+</h3>
+            <p>Events Hosted</p>
+          </div>
+          <div className="stat-item">
+            <h3>5,000+</h3>
+            <p>Happy Students</p>
+          </div>
+          <div className="stat-item">
+            <h3>50+</h3>
+            <p>Networking Opportunities</p>
           </div>
         </div>
       </div>
