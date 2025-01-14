@@ -185,3 +185,157 @@ p {
   background-size: contain;
   background-position: center;
 }
+
+.lol {
+  display: none;
+}
+
+@media screen and (max-width: 1200px) {
+  .home img {
+    width: 300px;
+  }
+
+  .home p {
+    font-size: 2rem;
+  }
+
+  .home button {
+    padding: 10px 80px;
+    font-size: 1.2rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+
+  .sticky-left,
+  .scrollable-right {
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+
+  .sticky-left .item {
+    padding-top: 50px;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .scrollable-right .content {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .home {
+    height: auto;
+    padding: 20px;
+  }
+
+  .home img {
+    width: 250px;
+  }
+
+  .home p {
+    font-size: 1.8rem;
+  }
+
+  .home button {
+    padding: 8px 60px;
+    font-size: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .stats-container {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .stat-item {
+    min-width: auto;
+    width: 80%;
+  }
+
+  .title1 {
+    margin-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  .thunder-divider {
+    display: none;
+  }
+
+  .thunder-dividerr {
+    width: 45%;
+    height: 40%;
+  }
+  .lol {
+    display: block;
+  }
+  .sticky-left .item {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .home img {
+    width: 200px;
+  }
+
+  .home p {
+    font-size: 1.5rem;
+  }
+
+  .home button {
+    padding: 5px 40px;
+    font-size: 0.9rem;
+  }
+
+  .number p {
+    font-size: 5rem;
+  }
+
+  .container {
+    margin-top: 50px;
+  }
+
+  .sticky-left,
+  .scrollable-right {
+    width: 100%;
+  }
+
+  .stats-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .stat-item h3 {
+    font-size: 1.5rem;
+  }
+
+  .stat-item p {
+    font-size: 1rem;
+  }
+
+  .thunder-divider {
+    display: none;
+  }
+  .thunder-dividerr {
+    display: none;
+  }
+  .lol {
+    display: block;
+  }
+  .sticky-left .item {
+    display: none;
+  }
+}

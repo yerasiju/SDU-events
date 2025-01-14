@@ -51,6 +51,19 @@ const HomePage = () => {
               </p>
             </div>
 
+            <div className="lol">
+              <div className="item">
+                <span className="number">
+                  <p>2</p>
+                </span>
+                <p className="scnd-p">
+                  <strong>Choose an Event</strong>
+                  <br />
+                  Pick an event that interests you and matches your schedule.
+                </p>
+              </div>
+            </div>
+
             <div className="item">
               <span className="number">
                 <p>3</p>
